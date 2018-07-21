@@ -1,0 +1,49 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+a:hover { text-decoration: none }
+.section-padding{
+    margin-top: 60px;
+}
+.section-bg{
+    position: relative;
+}
+.section-bg::after{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 26%;
+    top: 0%;
+    content: "";
+    background-image: url(../img/photodune-8479516-side-view-of-two-executives-shaking-hands-in-the-living-room-at-home-m-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-left: 150px; 
+    z-index: -1;
+}
