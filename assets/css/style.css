@@ -36,7 +36,7 @@ a:hover { text-decoration: none }
     position: absolute;
     width: 450px;
     height: 450px;
-    left: 26%;
+    left: 29.5%;
     top: 0%;
     content: "";
     background-image: url(../img/photodune-8479516-side-view-of-two-executives-shaking-hands-in-the-living-room-at-home-m-1.jpg);
@@ -46,4 +46,62 @@ a:hover { text-decoration: none }
     border-radius: 50%;
     margin-left: 150px; 
     z-index: -1;
+}
+.left {
+    width:  70%;
+    float:  left;
+}
+
+.right {
+    width:  70%;
+    float:  right;
+    padding-left: 55px;
+    text-align: right;
+}
+
+.section-icon {
+    width: 20%;
+    float:  left;
+    text-align:  center;
+    background-color:  #fff;
+    height: 105px;
+    border-radius: 50%;
+    transition:  .3s;
+    margin-top: 13px;
+    position: absolute;
+}
+
+.section-icon a {
+    color:  #000;
+    font-size:  40px;
+    line-height: 2.5;
+    padding: 18px;
+    border: 2px solid #ddd;
+    border-radius:  50%;
+}
+
+.section-icon:hover {
+    box-shadow: 0 0 10px #000;
+}
+.position-right {
+    right: 18%;
+    bottom: -13px;
+}
+
+.position-padding {
+    right: 30%;
+}
+.icon-left {
+    right:  22%;
+}
+
+.singel-round {
+    margin-top: 14px;
+}
+.position-left {
+    left: 104px;
+    bottom: -10px;
+}
+.position-padding-l {
+    left: 133px;
 }
